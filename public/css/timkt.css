@@ -1,0 +1,218 @@
+.main-content-nucthrone {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#13141c+0,202330+28,1d1f2b+55,13141c+77,13141c+100 */
+    background: #13141c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #13141c 0%, #202330 28%, #1d1f2b 55%, #13141c 77%, #13141c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #13141c 0%,#202330 28%,#1d1f2b 55%,#13141c 77%,#13141c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #13141c 0%,#202330 28%,#1d1f2b 55%,#13141c 77%,#13141c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13141c', endColorstr='#13141c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.main-content-nucthrone-bg {
+    width: 1080px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.main-content-nucthrone-logo {
+    position: relative;
+    display: inline-block;
+    top: -120px;
+}
+
+.main-content-nucthrone-logo img {
+    width: 100%;
+}
+
+.main-content-nucthrone-logo .glow {
+    position: absolute;
+    top: 0px;
+}
+
+.main-content-nucthrone-youtube {
+    margin-top: -80px;
+}
+
+.main-content-nucthrone-info {
+    padding: 0px 30px 10px 30px;
+    max-width: 1080px;
+}
+
+.main-content-nucthrone-info h1 {
+    color: white;
+    font-size: 3em;
+    font-family: Joystix !important;
+}
+
+.main-content-nucthrone-info p {
+    color: white;
+}
+
+.main-content-nucthrone-images {
+    width: auto;
+}
+
+.main-content-nucthrone-info .slick-big-img {
+    width: 450px;
+    height: 300px;
+}
+
+.main-content-nucthrone-info .slick-small-img img {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+}
+
+.main-content-nucthrone-images .slider-nav {
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.main-content-nucthrone-images {
+    margin: 40px 0px 20px 0px;
+}
+
+.platforms {
+    margin: 10px 0 15px 0;
+}
+
+.platforms img {
+    margin: 0 5px 0 0;
+    color: white;
+}
+
+.main-content-nucthrone-info a {
+    color: #FFFFFF;
+    background: #49d911;
+    font-size: 1.2rem;
+    font-family: darah, sans-serif;
+    padding: 5px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+}
+
+.main-content-nucthrone-info img {
+    color: white;
+}
+
+/* END NUCLEAR THRONE */
+
+/* BEGIN SHOPPING CART */
+
+.shop-cart-main-content {
+    width: 1080px;
+}
+
+.shop-cart-main-content h1 {
+    margin: 40px 0px 20px 0px;
+}
+
+.shop-cart-main .divider {
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.shop-cart-product-list h3, .shop-cart-product-list form, .shop-cart-product-list p{
+    /*height: 100px;*/
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.shop-cart-main h2 {
+    color: #7b7b7b;
+    font-size: 1.3em;
+    font-family: "Open Sans", 'sans-serif';
+    font-weight: 400;
+}
+.shop-cart-main h3 {
+    color: black;
+    font-size: 1.1em;
+    /*margin: 50px 10px 0px 10px;*/
+    font-family: "Open Sans", 'sans-serif';
+    /*font-weight: 300;*/
+}
+
+.shop-cart-product-list img {
+    max-width: 100px;
+    height: auto;
+    width: auto;
+}
+
+.shop-cart-product-pricing {
+    margin: 20px 0px 20px 0px;
+}
+
+/* END SHOPPING CART */
+
+/* Forum categories */
+
+.forum.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.forum .fa {
+    width: 1em;
+    text-align: center;
+    color: #333;
+}
+
+.forum.table th.cell-stat {
+    width: 6em;
+}
+
+.forum.table th.cell-stat-2x {
+    width: 14em;
+}
+
+.forum-categories-main-content {
+    width: 80em;
+}
+
+.forum-categories-main h3{
+    color: black;
+}
+
+.forum-categories-main h1 {
+    margin-top: 50px;
+}
+
+/* Forum Post */
+
+.forum-post-main-content {
+    width: 1080px;
+}
+
+.forum-categories-main p {
+    color: black;
+}
+
+.forum .forum-post-panel {
+    margin-bottom: 1em;
+}
+
+.forum.media-list li img.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+.forum.media-list li .user-info {
+    text-align: center;
+    width: 8em;
+}
+
+@media (max-width: 760px) {
+    .forum.media-list li .user-info {
+        float: none;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+.forum-post-input button {
+    margin: 5px 0px 5px 0px;
+}
+
+.forum .forum-rank {
+    margin: 2px 0px 0px 0px;
+    font-size: 12px;
+}

@@ -1,0 +1,261 @@
+p {
+    font-family: sans-serif;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+    .logged-in button a {
+        color: white;
+    }
+
+/* ==========================================================================
+   Twitter feed
+   ========================================================================== */
+
+.tweet_profile_pic{
+    margin: 0 20px 0 20px;
+}
+
+.twitter-tweet{
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+.main-content-contact{
+    background: #383838;
+}
+
+.contact{
+    margin: 0 auto;
+    color: white;
+}
+
+.contact h2{
+    text-align: center;
+    padding: 10px;
+}
+
+/* ==========================================================================
+   Super crate box
+   ========================================================================== */
+
+.main-content-crate{
+    background-color: #4b5462;
+    z-index: 1000;
+}
+
+.crate-logo img{
+    margin: 0 auto;
+    display: block;
+}
+
+.crate-logo{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+.crate-menu-top{
+    background-image: url("../img/supercratebox/menu_clouds.png");
+    background-color: #E1EEF8;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+
+    animation: animatedBackground 40s linear infinite;
+}
+
+.crate-menu-bot{
+    background-image: url("../img/supercratebox/menu_buildings.png");
+}
+
+#crate-video{
+    margin: 0 50px 80px 50px;
+}
+
+#crate-video iframe{
+    margin: 0 auto;;
+    display: block;
+}
+
+.crate-description{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.crate-cover{
+    padding: 10px 0 10px 0;
+}
+
+.crate-decriptionbox{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background: #444444;
+    color: white;
+    border-radius: 10px;
+}
+
+.crate-description-text{
+    font-family: 'joystix', sans-serif;
+}
+
+.crate-box-content{
+    padding: 30px;
+}
+
+.crate-info{
+    padding-bottom: 30px;
+    z-index: 500;
+}
+
+.crate {
+    position:absolute;
+    z-index:-999;
+    width:40px;
+    height:40px;
+    background-image: url("../img/supercratebox/crate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#site {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+
+
+/* ==========================================================================
+   Twitter footer
+   ========================================================================== */
+
+.contact-adress{
+    margin-left: 29px;
+}
+
+.contact-info h2{
+    font-size: 2.5rem;
+}
+
+.footer-info{
+    padding-bottom: 20px;
+}
+
+.twitter-footer{
+    width: 35%;
+    padding-top: 30px;
+}
+
+.twitter-footer ul{
+    margin: 0;
+}
+
+.twitter-footer p{
+    font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   User profile
+   ========================================================================== */
+
+.user-description{
+    padding: 30px;
+}
+
+.privatedata{
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.user-profile-buttons button {
+   margin-top: 20px;
+}
+
+.public-user-info h3, .public-user-info p{
+    color: white;
+}
+
+.private-user-info p {
+    color: black;
+}
+
+/* ==========================================================================
+   Old user profile CSS that I 'lend' from Tim KT
+   ========================================================================== */
+
+.user-profile-main {
+    background: #383838;
+    padding: 30px;
+}
+
+.user-profile-main-content {
+    width: 1080px;
+    /*background: #383838;*/
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    /*border: 1px solid rgb(217,217,217);*/
+    border-radius: 3px;
+}
+
+.user-profile-main-content h2{
+    font-weight: 500;
+    font-size: 2.2em;
+}
+
+.user-profile-main-content h3 {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 5px 0px 5px 0px;
+}
+
+.user-profile-main p, .user-profile-main h3, .user-profile-main h2{
+    font-family: "Open Sans", 'sans-serif';
+}
+
+.user-profile-user-img img {
+    border-radius: 5px;
+}
+
+.user-profile-infobox {
+    font-size: 14px;
+}
+
+.user-profile-infobox tr {
+    width: 100px;
+}
+
+.glowed{
+    box-shadow: 0px 0px 30px 2px #cf5
+}
+
+/* ==========================================================================
+   Profile edit
+   ========================================================================== */
+
+.profile-edit{
+    background: #383838;
+    padding: 50px;
+}
+
+.profile-edit{
+    color: white;
+}
+
+/* ==========================================================================
+   Forum sticky posts
+   ========================================================================== */
+
+

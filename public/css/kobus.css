@@ -1,0 +1,628 @@
+/*
+    cms
+*/
+
+.row-item-wrap {
+    display: flex;
+}
+
+.row-th li, .row-th li a {
+    font-weight: bold;
+}
+
+.row-item {
+    list-style: none;
+    flex: 1;
+    padding: 5px 10px;
+    border-bottom: 2px solid gray;
+}
+
+.user-permissions {
+    width: 75%;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+.top-functions {
+    display: flex;
+    justify-content: center;
+}
+
+.top-functions > div {
+    flex: 1;
+}
+
+.top-functions > .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-functions > .search input {
+    padding: 1px;
+    margin: 10px 0;
+}
+
+.top-functions > .search label {
+    white-space: nowrap;
+    margin: 0 10px;
+}
+
+.list-of-threads li {
+    list-style: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.complete-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    height: 300px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.active-nav li {
+    color: white;
+}
+
+.auth-error {
+    background-color: red !important;
+    color: #fefefe !important;
+}
+
+/*
+    header logged in
+*/
+
+
+
+.login-menu {
+    position: relative;
+
+}
+
+.login-menu ul {
+    margin-right: 0;
+    padding: 0;
+}
+
+.logged-in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logged-in * {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.btn-user-menu {
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0;
+}
+
+.user-menu {
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 100%);
+    background-color: #222222;
+    z-index: 99;
+    display: none;
+    margin-right: -15px;
+    margin-bottom: 0;
+    min-width: 180px;
+}
+
+.user-menu li {
+    padding: 8px;
+    list-style: none;
+}
+
+.user-menu li a {
+    color: white;
+}
+
+/*
+    header / shopping cart preview
+*/
+
+.cart-icon {
+    cursor: pointer;
+}
+
+.cart-icon img {
+    width: 35px;
+    height: auto;
+}
+
+.shoppingcart {
+    position: relative;
+}
+
+.shoppingcart .cart-icon i {
+    position: absolute;
+    top: 15%;
+    right: -5px;
+    background-color: #222222;
+    font-weight: bold;
+    border-radius: 360%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.shoppingcart #shop-cart-preview {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+    margin-right: -15px;
+    background-color: #222222;
+    z-index: 99;
+    display: none;
+}
+
+.empty-shop-cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.empty-shop-cart img {
+    margin-bottom: 15px;
+}
+
+.empty-shop-cart p {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.shop-cart-main-content .empty-shop-cart img {
+    background-color: gray;
+    padding: 20px;
+    overflow: visible;
+}
+
+#shop-cart-preview .product-preview-info p {
+    white-space: nowrap;
+    margin: 0 5px;
+}
+
+#shop-cart-preview .product-preview-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 15px;
+}
+
+#shop-cart-preview .total-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 0 25px;
+    border-top: 1px solid white;
+}
+
+#shop-cart-preview .total-price h4 {
+    padding-left: 10px;
+}
+
+#shop-cart-preview .product-preview-info .product-name-preview {
+    -webkit-box-flex: 7;
+    -ms-flex: 7;
+    flex: 7;
+}
+
+#shop-cart-preview > .product-preview-info:nth-of-type(even) {
+    background-color: #2f2f2f;
+}
+
+#shop-cart-preview .product-preview-info .product-name-preview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#shop-cart-preview .product-preview-info .product-name-preview p:nth-child(2) {
+    opacity: 0.6;
+}
+
+
+#shop-cart-preview .product-preview-info .product-preview-price {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 25px;
+    opacity: 0.6;
+}
+
+#shop-cart-preview .btn-primary {
+    width: 100%;
+    border-radius: 0;
+}
+
+#inShoppingCart {
+    margin: 0;
+}
+
+.message-shop-cart {
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 99;
+    white-space: nowrap;
+    display: none;
+}
+
+.main-content-products .product-overview {
+    position: relative;
+}
+
+.product-information #size {
+    width: 25% !important;
+}
+
+.alert {
+    padding: 2px;
+    margin-bottom: 0;
+}
+
+/*
+    order
+*/
+
+.order-info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user-order-info {
+    width: 90%;
+    display: flex;
+    margin: 15px auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.user-order-info > div {
+    flex: 1;
+}
+
+/*
+    order view
+*/
+
+.order-container {
+    width: 75% !important;
+    margin: 0 auto;
+}
+
+/*
+    Form register and login
+*/
+
+.login-forum {
+    margin: 15px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login-forum input {
+    padding: 5px 15px;
+    width: 100%;
+}
+
+.login-forum label {
+    position: relative
+}
+
+.login-forum p {
+    display: none;
+}
+
+.form-content {
+    background-color: #414043;
+    min-height: 70vh;
+
+}
+
+.text-field-form {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.text-field-form:focus {
+    outline: 0;
+    border: 1px solid #c9302c;
+}
+
+.btn-form {
+    padding: 10px 25px;
+    border: 0;
+    color: white;
+    background-color: #c9302c;
+}
+
+.form-wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.form-wrap form {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.form-wrap h2 {
+    text-align: center;
+}
+
+.form-wrap span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.form-wrap .form-group label {
+    color: #fefefe;
+}
+
+/*
+    gun god game page
+*/
+
+.gungodz-content {
+    background-image: url("http://img05.deviantart.net/29bf/i/2015/338/e/f/yung_venuz__wallpaper__by_sesquii-d9ize1h.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.gungodz-content .container {
+    width: 1080px !important;
+    background-color: rgba(40, 39, 41, 0.6);
+}
+
+.gun-god-logo {
+    width: 100%;
+    margin: 25px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.gun-god-logo img {
+    width: 50%;
+    height: auto;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+
+.gun-god-trailer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+#gun-god-desc {
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+    margin: 25px 0;
+}
+
+.gg-text-plus-last {
+    -webkit-transform: skewy(-5deg);
+    transform: skewy(-5deg);
+}
+
+.gg-text-plus-first {
+    -webkit-transform: skewY(-2.5deg);
+    transform: skewY(-2.5deg);
+}
+
+.gg-text-min-first {
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+}
+
+.gg-text-min-last {
+    -webkit-transform: skewY(2.5deg);
+    transform: skewY(2.5deg);
+}
+
+.slide-gg img {
+    width: 800px !important;
+    height: 350px !important;
+}
+
+.gg-bottom {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.gg-bottom a {
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #fefefe;
+    color: #282729;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.gg-download:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.gg-platform {
+    padding: 25px 0;
+}
+
+/*
+    Forum category
+*/
+
+.forum-categories {
+    background-color: #383838;
+}
+
+.forum-category {
+    width: 1080px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.general-forum {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.category-item img {
+    width: 300px;
+    height:auto;
+}
+
+.games-category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.category-item {
+    width: 29%;
+    padding: 2.5%;
+    box-sizing: border-box;
+    position: relative;
+    opacity: 0.6;
+}
+
+.category-item:hover {
+    opacity: 1;
+}
+
+.category-item .category-title {
+    position: absolute;
+    font-size: 21px;
+    bottom: 15%;
+    left: 15%;
+    text-shadow: 1px 0.1px black;
+    text-decoration: none;
+    color: crimson;
+}
+
+
+
+/*
+    Threads
+*/

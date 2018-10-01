@@ -1,0 +1,644 @@
+/*
+=================================================================
+1.0 Footer
+=================================================================
+*/
+footer{
+    width: 100%;
+    background: #282729;
+    color: white;
+}
+footer h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer ul{
+    list-style-type: none;
+}
+.contact-info ul{
+    margin-top: 2%;
+}
+.contact-info img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.social-media-icons img{
+    width: 64px;
+    height: 64px;
+}
+
+/*
+=================================================================
+1.0 End Footer
+=================================================================
+*/
+/*
+=================================================================
+2.0 ridiculousFishing main-content
+=================================================================
+*/
+.main-content-fishing {
+    width: 100%;
+    height: 960px;
+    background: transparent url('../img/ridiculousFishing/bg_sky.png');
+    background-position: top;
+    z-index: -999;
+}
+.main-content-fishing-logo img {
+    position: relative;
+    top: -15px;
+}
+
+.main-content-fishing-youtube {
+    margin-top: 50px;
+}
+#fishtank p{
+    font-size: 16px;
+    text-align: center;
+}
+.fishing-description{
+    margin-top: 250px;
+    width: 960px;
+}
+
+#foam {
+    height: 87px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background: url("../img/ridiculousFishing/bg_sea_foam.png");
+    background-color: #a86c23;
+}
+#fishtank {
+    color: white;
+    background: url("../img/ridiculousFishing/bg_sea_water.png");
+    width: 100%;
+    height: 1319px;
+    z-index: 999;
+}
+.bonefish
+{
+    position: absolute;
+    clear: none;
+    height: 70px;
+    width: 110px;
+    left: 60%;
+    top: 10%;
+    background: transparent url('../img/ridiculousFishing/fish_boneLeft.png') no-repeat;
+}
+.guppy
+{
+    position: relative;
+    clear: none;
+    height: 38px;
+    width: 54px;
+    left: 20%;
+    top: 20%;
+    background: transparent url('../img/ridiculousFishing/fish_guppyLeft.png') no-repeat;
+}
+
+
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.rf-description {
+    width: 400px;
+    margin-right: 150px;
+}
+
+.wrapper-rf-rf{
+    width: 690px;
+}
+.rf-rf-rf{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.title-rf{
+    width: 450px;
+    color: #a86c23;
+}
+.btn-rf-buy a{
+    background: #802825; /* Old browsers */
+    background: -moz-linear-gradient(top,  #802825 6%, #963938 13%, #963938 22%, #963938 28%, #802825 37%, #963938 55%, #963938 55%, #802825 71%, #963938 93%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #802825 6%,#963938 13%,#963938 22%,#963938 28%,#802825 37%,#963938 55%,#963938 55%,#802825 71%,#963938 93%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #802825 6%,#963938 13%,#963938 22%,#963938 28%,#802825 37%,#963938 55%,#963938 55%,#802825 71%,#963938 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802825', endColorstr='#963938',GradientType=0 ); /* IE6-9 */
+;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn-rf-buy a:hover{
+    font-size: 15px;
+}
+/*
+=================================================================
+2.0 End ridiculousFishing main-content
+=================================================================
+*/
+/*
+=================================================================
+3.0 Merchandise
+=================================================================
+*/
+.main-content-merch {
+    background: #383838;
+}
+
+.m-container {
+    width: 1080px;
+}
+.merch-overview{
+    width: 75%;
+    padding: 20px 0;
+}
+.merch-overview h2{
+    text-align: center;
+}
+.merch-items{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.merch-item{
+    width: 370px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+.merch-item img{
+    width: 100%;
+    height:100%;
+}
+.merch-item{
+    position: relative;
+}
+.product-description-merch {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    margin: 1px;
+    background: none;
+    background: -webkit-linear-gradient(transparent, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, #000000); /* Standard syntax */
+}
+
+.product-description-merch img {
+    width: 110px;
+    height: 5px;
+    padding: 0;
+    position: absolute;
+    left: 12px;
+    top: -2px;
+}
+.product-description-merch h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 2px 0 2px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+.product-description-merch p {
+    font-size: 0.7rem;
+    margin: 0 0 8px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    width: 90%;
+}
+
+/*
+=================================================================
+3.0 END Merchandise
+=================================================================
+*/
+/*
+=================================================================
+4.0 Login
+=================================================================
+*/
+
+.container_login{
+    padding-top:50px;;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    background: #c9302c;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: -30px;
+    z-index: -1;
+    position: relative;
+}
+.wrapper{
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px 2px #888888;
+    border-radius: 8px;
+    background: white;
+    z-index: 0;
+    position: relative;
+}
+.login-title{
+    text-align: center;
+}
+.login-title h2{
+    padding-top:35px;
+}
+.logo_container{
+    background: #c9302c;
+    width: 100%;
+    height: 100px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.login_input{
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 25%;
+    z-index: 10;
+}
+.login_input input{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0.2px solid;
+    background: #c9302c;
+}
+.login_input input:first-child{
+    background: url(../img/icons/user_icon.jpg) no-repeat scroll 0px 1px;
+    padding-left:35px;
+    font-size: 18px;
+}
+.login_input input:last-child{
+    background: url(../img/icons/pass_icon.jpg) no-repeat scroll 4px 4px;
+    padding-left:35px;
+    font-size: 18px;
+}
+.reset{
+    padding-left: 25%;
+}
+.reset a{
+    margin-left: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: red;
+}
+.reset input{
+    margin-left: 100px;
+}
+/*
+=================================================================
+4.0 END Login
+=================================================================
+
+
+/* ==========================================================================
+5.0 Super bread box
+   ========================================================================== */
+
+.bread-menu-top{
+    background-image: url("../img/superbreadbox/menu_clouds64.gif");
+    background-color: #E1EEF8;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s linear infinite;
+}
+
+.bread-menu-middle{
+    background-image: url("../img/supercratebox/menu_buildings.png");
+    background-repeat: repeat-x;
+    height: 300px;
+}
+.bread-menu-bot{
+    height: 750px;
+}
+.fire-gif{
+    margin-top:90px;
+}
+
+.brown{
+    color: #de8e83;
+}
+.yellow{
+    color: #f7ff88;
+}
+
+.lr-images-super {
+    width: 40%;
+    margin-top: 3%;
+}
+
+.lr-images-super .large-img {
+    margin: 30px 0 0 0;
+}
+.lr-images-super .small-images {
+    margin: 10px 0 0 0;
+}
+
+
+.lr-images-rf {
+    width: 40%;
+    margin-top: 3%;
+}
+.lr-images-rf .large-img {
+    margin: 30px 0 0 0;
+}
+.lr-images-rf .small-images {
+    margin: 10px 0 0 0;
+}
+
+
+.lr-images-super .large-img img {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+}
+
+.lr-images-super .small-images img {
+    margin-right: 5px;
+}
+
+.super-background{
+    background-image: url("../img/superbreadbox/background-super.png");
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.description-superbreadbox{
+    margin: 0 auto;
+    margin-top: 6%;
+}
+.description-superbreadbox{
+    width: 660px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.description-superbreadbox h2{
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+/* ==========================================================================
+5.0 END Super bread box
+   ========================================================================== */
+/* ==========================================================================
+6.0 contact page
+   ========================================================================== */
+
+.contact-group label{
+    padding-bottom: 5px;
+}
+
+/* ==========================================================================
+6.0 END contact page
+   ========================================================================== */
+/* ==========================================================================
+7.0 Forum thread
+   ========================================================================== */
+.forum-thread-container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.fa-bars{
+    text-align: center;
+}
+.new-thread{
+    margin-top: 30px;
+    height: 700px;
+}
+.new-thread-title{
+    margin-top: 20px;
+}
+.btn-new-thread-wrapper{
+    width: 48%;
+    margin: 0 auto;
+}
+.m0auto{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.forum-thread {*/
+    /*background-color: white;*/
+    /*color: #fefefe;*/
+/*}*/
+/*.fa-bars{*/
+    /*color: black;*/
+/*}*/
+/*.thread-item{*/
+    /*color: black;*/
+/*}*/
+
+/*.threads {*/
+    /*width: 1080px !important;*/
+    /*padding-bottom: 25px;*/
+/*}*/
+
+/*.thread-top {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*margin-top: 25px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+/*.thread-top div {*/
+    /*flex: 1;*/
+/*}*/
+
+/*.search-field {*/
+    /*border: 0;*/
+    /*border-radius: 2px;*/
+    /*padding: 5px 25px;*/
+    /*color: white;*/
+    /*background: grey;*/
+    /*width: 25%;*/
+    /*height: 30px;*/
+    /*margin: 0 auto;*/
+    /*outline: 0;*/
+/*}*/
+/*.btn-back {*/
+    /*background-color: #0D3349;*/
+    /*color: white;*/
+    /*border: 0;*/
+    /*padding: 10px 25px;*/
+    /*outline: 0;*/
+/*}*/
+
+/*.btn-new-thread:before {*/
+    /*margin-right: 5px;*/
+
+/*}*/
+/*#thread-item-header.thread-item{*/
+    /*background: #ed2532;*/
+    /*border-top-left-radius: 2px;*/
+    /*border-top-right-radius: 2px;*/
+    /*color: white;*/
+/*}*/
+/*.thread-table-top {*/
+    /*display: flex;*/
+    /*padding-top: 25px;*/
+    /*padding-bottom: 5px;*/
+    /*color: black;*/
+    /*justify-content: space-between;*/
+/*}*/
+
+/*.thread-list {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*position: relative;*/
+/*}*/
+
+/*.thread-info span:nth-child(1) {*/
+    /*width: 5%;*/
+/*}*/
+
+/*.thread-info span:nth-child(2) {*/
+    /*width: 45%;*/
+/*}*/
+
+/*.thread-info span:nth-last-child(1) {*/
+    /*width: 10%;*/
+/*}*/
+
+/*.thread-list i {*/
+    /*transition: 0.1s;*/
+    /*font-size: 19px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.thread-list i:hover {*/
+    /*transform: scale(1.2);*/
+/*}*/
+/*.thread-item a{*/
+    /*color: black;*/
+/*}*/
+/*.thread-header span {*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*.thread-item {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*position: relative;*/
+    /*border-bottom: 1px solid white;*/
+    /*padding: 15px;*/
+    /*background: #f0f0f0;*/
+/*}*/
+
+/*.thread-info {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.thread-info span {*/
+    /*width: 20%;*/
+    /*padding: 5px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*.thread-menu {*/
+    /*opacity: 0.8;*/
+    /*width: 100%;*/
+    /*text-align: end;*/
+    /*padding-right: 7.8%;*/
+    /*display: none;*/
+/*}*/
+
+/*.new-thread {*/
+    /*width: 100%;*/
+    /*border: 1px solid #fefefe;*/
+    /*padding: 10px;*/
+    /*display: none;*/
+/*}*/
+
+/*.thread-menu i {*/
+    /*padding: 10px 25px;*/
+    /*margin-right: 3px;*/
+/*}*/
+
+/*.fa-trash-o {*/
+    /*color: #fefefe;*/
+    /*background-color: crimson;*/
+/*}*/
+
+/*.fa-pencil-square-o {*/
+    /*color: #fefefe;*/
+    /*background-color: #1b6d85;*/
+/*}*/
+
+/*.fa-exclamation-triangle {*/
+    /*color: #fefefe;*/
+    /*background-color: darkorange;*/
+/*}*/
+
+/*.report-thread {*/
+    /*position: fixed;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*z-index: 999;*/
+    /*background-color: whitesmoke;*/
+    /*padding: 25px;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #bcbcbc;*/
+    /*display: none;*/
+/*}*/
+
+/*.report-thread option, .report-thread select {*/
+    /*color: #383838;*/
+/*}*/
+
+/*.report-top {*/
+    /*position: relative;*/
+/*}*/
+
+/*.report-top i {*/
+    /*position: absolute;*/
+    /*top: -35px;*/
+    /*right: -10px;*/
+/*}*/
+
+/*.report-thread textarea {*/
+    /*color: #383838;*/
+/*}*/
+
+/*.report-thread .form-group  {*/
+    /*margin: 20px 0;*/
+/*}*/
+
+/*.report-thread textarea {*/
+    /*width: 100%;*/
+/*}*/
+
+/*.report-thread h3 {*/
+    /*text-decoration: underline;*/
+/*}*/

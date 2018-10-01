@@ -1,0 +1,749 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+=============================
+0.0 General Styling
+=============================
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+.container{
+    width: 100% !important;
+}
+.red{
+    color: #ED2532;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0.1 Flex Items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.flex {
+    display: -webkit-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.flex-one {
+    -webkit-box-flex: 1;
+    flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+}
+
+.fd-r{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.fd-c{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.jc-c{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.jc-sb{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.jc-sa{
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+.jc-fe{
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+.jc-fs{
+    justify-content:flex-start;
+    -webkit-justify-content: flex-start;
+}
+.ai-center {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+}
+
+/*
+=============================
+0.2 FONT STYLE
+=============================
+*/
+@font-face {
+    font-family: 'joystix';
+    src: url(../font/joystix.ttf);
+}
+
+@font-face {
+    font-family: 'blangkon';
+    src: url(../font/blangkon.ttf);
+}
+
+@font-face {
+    font-family: 'darah';
+    src: url(../font/darah.ttf);
+}
+
+h1, h2 {
+    font-family: 'Joystix', 'sans-serif';
+}
+
+h2{
+    color: white;
+}
+
+h3, h4, h5, p {
+    font-family: "Open Sans", 'sans-serif';
+}
+
+/*
+=============================
+0.3 HEADER STYLE
+=============================
+*/
+
+.header-top{
+    background-color: #161719;
+    color: white;
+}
+
+.brand{
+    margin: 10px 0;
+}
+
+.logo{
+    padding-right: 20px;
+}
+
+
+.slogan {
+    font-family: 'joystix', sans-serif;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.slogan h2 {
+    font-size: 35px;
+}
+
+.slogan p {
+    font-size: 15px;
+}
+/*
+=================================================================
+0.4 Special Classes
+=================================================================
+*/
+.trns {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+/*
+=============================
+1.0 navigation bar
+=============================
+*/
+
+.nav {
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.nav li {
+    text-align: center;
+    text-decoration: none;
+}
+
+.active-nav {
+    background-color: #ed2532;
+    font-weight: bold;
+}
+
+.nav .active-nav li {
+    color: #fefefe;
+}
+
+.nav a li {
+    color: #161719;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav a li:hover, .nav a:hover {
+    background-color: #ed2532;
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+/*
+=================================================================
+1.1 login register menu
+=================================================================
+*/
+
+.login-menu ul{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.login-menu li{
+    padding: 3px;
+}
+
+.login-menu li a {
+    color: #fefefe;
+    font-size: 18px;
+}
+.login-menu a:hover{
+    text-decoration: none;
+    color: #bcbcbc;
+}
+.menu-register span:hover{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.menu-register {
+    color: #ED2532;
+}
+
+.menu-register:hover, .menu-login:hover{
+    cursor: pointer;
+}
+
+/*
+=================================================================
+1.2 Shopping cart
+=================================================================
+*/
+
+.shoppingcart {
+    margin-right: 15px;
+}
+.shoppingcart img{
+    width: 40px;
+    height: 40px;
+}
+
+.shoppingcart span {
+    padding: 10px;
+    background-color: #ED2532;
+    border-radius: 360%;
+}
+
+.shoppingcart span a {
+    font-size: 45px;
+    color: #fefefe;
+    text-decoration: none;
+    text-align: center;
+}
+
+.shoppingcart:hover span {
+    background-color: #b00b1e;
+}
+
+.shoppingcart:hover span a {
+    color: #ED2532;
+    text-decoration: none;
+}
+
+/*
+=============================
+Slider
+=============================
+*/
+
+/*#slides {*/
+    /*display: none;*/
+/*}*/
+
+/*.slidesjs-pagination .active {*/
+    /*color: #ED2532;*/
+/*}*/
+
+/*.slidesjs-pagination {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: flex-end;*/
+    /*list-style: none;*/
+
+/*}*/
+
+/*ul.slidesjs-pagination {*/
+    /*background-color: #F0F0F0;*/
+/*}*/
+
+/*.slidesjs-pagination li {*/
+    /*padding: 0 0 10px 10px;*/
+/*}*/
+/*.slider img{*/
+    /*width: 100%;*/
+/*}*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*
+=============================
+Official vlambeer games
+=============================
+*/
+
+.official-games{
+    background: #383838;
+}
+
+.official-games h2{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: white;
+}
+
+.official-game img{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.official-game:hover img {
+    filter: brightness(30%);
+    -webkit-transition-delay: 0.1s; /* Safari */
+    transition-delay: 0.1s;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.official-game:hover .product-description p{
+    font-size: 14px;
+    transition-delay: 0.1s;
+}
+.merchandise-item:hover img {
+    filter: brightness(30%);
+    -webkit-transition-delay: 0.1s; /* Safari */
+    transition-delay: 0.1s;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.merchandise-item:hover .product-description p{
+    font-size: 12px;
+    transition-delay: 0.1s;
+}
+.merch-item:hover img {
+    filter: brightness(30%);
+    -webkit-transition-delay: 0.1s; /* Safari */
+    transition-delay: 0.1s;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.merch-item:hover .product-description-merch p{
+    font-size: 14px;
+    transition-delay: 0.1s;
+}
+
+
+.games{
+    max-width: 1080px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/*
+=============================
+vlambeer merchandise
+=============================
+*/
+
+.official-merchandise{
+    background: #383838;
+}
+
+.official-merchandise h2{
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+.merchandise-group{
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.merchandise-item img{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+/*
+=============================
+Twitter feed
+=============================
+*/
+
+.information{
+    background: #383838;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+}
+
+.information p{
+    color: white;
+}
+
+.twitter{
+    width: 40%;
+    border: 5px solid #3f3f3f;
+    margin: 5px;
+}
+
+.twitter h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.tweet{
+    border: 3px solid #282729;
+    margin: 5px;
+}
+
+.about{
+    width: 40%;
+    border-top: 1px solid red;
+    border-bottom: 2px solid grey;
+    /*border: 5px solid #3f3f3f;*/
+    margin: 5px;
+}
+
+.about h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.about p{
+    font-size: 1.4em;
+    padding: 10px 20px 10px 20px;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.active:hover{
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

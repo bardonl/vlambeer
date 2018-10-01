@@ -1,0 +1,394 @@
+/*LUFTRAUSERS*/
+
+.lr-container {
+    position: relative;
+}
+
+.lr-container .top-bg {
+    height: 300px;
+    background: #e8dfaa;
+}
+
+.lr-container img.bg {
+    width: 100%;
+}
+
+.lr-container img.logo, .lr-content {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.lr-container img.logo {
+    z-index: 1;
+    top: 20px;
+}
+
+.airplane {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    animation: fly 5s infinite;
+}
+
+#airplane2 {
+    margin-top: 100px;
+}
+
+#airplane3 {
+    margin-top: 200px;
+}
+
+@keyframes fly {
+    0% {
+        left: 100px;
+        transform: rotate(0deg);
+    }
+    25% {
+        left: 1149px;
+        transform: rotate(0deg);
+    }
+    50% {
+        left: 1149px;
+        transform: rotate(180deg);
+    }
+    75% {
+        left: 100px;
+        transform: rotate(180deg);
+    }
+    100% {
+        left: 100px;
+        transform: rotate(0deg);
+    }
+}
+
+.lr-mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.lr-content {
+    background: #383838;
+    width: 1080px;
+    top: 240px;
+    padding: 150px 0 50px 0;
+}
+
+.lr-content iframe {
+    width: 100%;
+    height: 480px;
+}
+
+.lr-description {
+    width: 40%;
+}
+
+.lr-description .title h1 {
+    font-family: blangkon, sans-serif;
+    font-size: 2.5rem;
+    color: #e8dfaa;
+    text-shadow: -2px 0 black, 0 3px black, 2px 0 black, 0 -2px black;
+}
+
+.lr-description p {
+    color: #FFFFFF;
+}
+
+.lr-description p.release {
+    color: #959078;
+}
+
+.platforms {
+    margin: 10px 0 15px 0;
+}
+
+.platforms img {
+    margin: 0 5px 0 0;
+}
+
+.lr-description a {
+    color: #FFFFFF;
+    background: #e8dfaa;
+    font-size: 1.2rem;
+    font-family: blangkon, sans-serif;
+    padding: 5px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.lr-description a:hover {
+    background: #FFFFFF;
+    color: #e8dfaa;
+}
+
+.lr-images {
+    width: 45%;
+}
+
+.lr-images .large-img {
+    margin: 30px 0 0 0;
+}
+
+.lr-images .large-img img {
+    width: 100%;
+    height: auto;
+}
+
+.lr-images .small-images {
+    margin: 10px 0 0 0;
+}
+
+.lr-images .small-images img {
+    margin-right: 20px;
+}
+
+.bottom-bg {
+    height: 300px;
+    background: #e3d8a7;
+}
+
+.skull {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+/*END LUFTRAUSERS*/
+
+/*HOMEPAGE*/
+
+.official-game, .merchandise-item {
+    position: relative;
+}
+
+.product-description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    margin: 10px;
+    background: none;
+    background: -webkit-linear-gradient(transparent, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, #000000); /* Standard syntax */
+}
+
+.product-description img {
+    width: 110px;
+    height: 5px;
+    padding: 0;
+    position: absolute;
+    left: 12px;
+    top: -2px;
+}
+
+.product-description h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 2px 0 2px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+.product-description p {
+    font-size: 0.7rem;
+    margin: 0 0 8px 20px;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    width: 90%;
+}
+
+/*END HOMEPAGE*/
+
+/*GAMES PAGE*/
+
+.main-content-products {
+    background: #383838;
+}
+
+.pl-container {
+    width: 1080px;
+}
+
+aside {
+    width: 25%;
+    padding-top: 40px;
+    border-left: 40px solid #222222;
+    background: #2b2b2b;
+}
+
+aside * {
+    list-style-type: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+aside i {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+ul.category {
+    margin: 0;
+}
+
+ul.category li.category-name {
+    padding: 10px 20px;
+    background: #222222;
+}
+
+ul.category-items {
+    padding: 10px 0 10px 40px;
+    background: #2b2b2b;
+}
+
+.product-overview {
+    width: 75%;
+    padding: 20px 0;
+}
+
+.product-overview h2 {
+    text-align: center;
+}
+
+/*END GAMES PAGE*/
+
+/*GAME PAGE*/
+
+.product-images {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.product-images .large-image {
+    width: 350px;
+    height: 250px;
+}
+
+.product-images .large-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-overview .product-information {
+    width: 45%;
+}
+
+.product-information {
+    color: #FFFFFF;
+}
+
+.product-information #size {
+    width: 70px;
+}
+
+.to-cart {
+    justify-content: flex-end;
+}
+
+.to-cart .price {
+    margin: 2px 30px 0 0;
+    font-size: 1.2rem;
+}
+
+/*END GAME PAGE*/
+
+/*SHOPPING CART CUSTOMERACCOUNT*/
+
+.existing-user {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.divider-vertical {
+    border-right: 1px solid #7b7b7b;
+}
+
+.glyphicon-menu-left {
+    margin: 15px 0 30px 0;
+}
+
+.user-account input[type='email'], .user-account input[type='password'] {
+    padding-left: 35px;
+}
+
+.user-account .form-group {
+    position: relative;
+}
+
+.user-account i {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.user-account i.fa-envelope-o {
+    font-size: 1.2rem;
+    top: 7px;
+}
+
+.user-account i.fa-lock {
+    font-size: 1.5rem;
+}
+
+/*END SHOPPING CART CUSTOMERACCOUNT*/
+
+/*SHOPPING CART CUSTOMERINFO*/
+
+.user-information {
+    margin-bottom: 70px;
+}
+
+.user-information .radio label:first-child {
+    display: block;
+    padding: 0;
+    font-weight: bold;
+}
+
+.extraAdress {
+    display: none;
+}
+
+/*END SHOPPING CART CUSTOMERINFO*/
+
+/*USER PROFILE PAGE*/
+
+.user-profile-user-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card.card-block *{
+    color: #000000;
+}
+
+/*END USER PROFILE PAGE*/
+
+/*USER EDIT-PROFILE PAGE*/
+
+.hidden-fields {
+    display: none;
+}
+
+/*END USER EDIT-PROFILE PAGE*/
+
+/*Extra classes*/
+
+.inactive {
+    opacity: 0.2;
+}
+
+.as-active {
+    border-left: 8px solid red;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1400px){
+    .lr-content {
+        width: 780px;
+    }
+}
