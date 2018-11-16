@@ -1,5 +1,0 @@
-Go to 159.253.7.212/phpmyadmin
-Type in: "bartdke98_vlam" as username
-Type in: "vlambeer" as password
-
-I think and hope that I don't need to tell you that both password and username is without quotes.
